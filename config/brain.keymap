@@ -11,14 +11,14 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include "swe_keys.h"
 
-#define DEFAULT     0
-#define QWERTY      1
-#define GAMING      2
-#define SYMBOLS_ENG 3
-#define SYMBOLS_SWE 4
-#define FUNC        5
-#define NUMBER      6
-#define SETTINGS    7
+
+#define QWERTY      0
+#define GAMING      1
+#define SYMBOLS_ENG 2
+#define SYMBOLS_SWE 3
+#define FUNC        4
+#define NUMBER      5
+#define SETTINGS    6
 
 / {
     behaviors {
