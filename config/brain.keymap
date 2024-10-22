@@ -132,7 +132,7 @@
         symbols_swe_layer {
             bindings = <
                 &kp SE_EXCL      &kp SE_DQT       &kp SE_AT     &kp SE_PLUS   &kp SE_BSLH   &kp SE_LPAR   &kp SE_RPAR   &kp SE_UNDER    &kp SE_QMARK    &kp SE_BSLH
-     &trans     &kp SE_AMP      &kp SE_SQT     &kp SE_HASH     &kp GRAVE  &kp SE_LBKT   &kp SE_MINUS  &kp SE_TILDE  &kp SE_EQUAL    &kp SE_PIPE     &kp SE_FSLH &none
+     &trans     &kp SE_AMP      &kp SE_SQT     &kp SE_HASH     &kp SE_GRAVE  &kp SE_LBKT   &kp SE_MINUS  &kp SE_TILDE  &kp SE_EQUAL    &kp SE_PIPE     &kp SE_FSLH &none
      &trans     &kp SE_PRCNT    &kp SE_LT       &kp SE_GT    &kp SE_DLLR   &kp SE_RBKT   &kp SE_LBRC   &kp SE_RBRC   &kp SE_UNDER      &kp SE_MINUS       &kp COLON       &none
                                                                 &kp PSCRN  &trans  &trans   &trans        &kp DEL       &trans
             >;
