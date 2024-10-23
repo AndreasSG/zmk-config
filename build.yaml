@@ -17,7 +17,7 @@ include:
   #- board: nice_nano_v2
    # shield: cradio_left
   #- board: nice_nano_v2
-    d  shield: cradio_right
+    #d  shield: cradio_right
 
   # Urchin https://github.com/duckyb/zmk-urchin
     #- board: nice_nano_v2
