@@ -67,8 +67,8 @@
 #define SE_RPAR  LS(N9)      // )
 #define SE_LBKT  RA(N8)      // [
 #define SE_RBKT  RA(N9)      // ]
-#define SE_LBRC  LEFT_BRACE      // {
-#define SE_RBRC  RIGHT_BRACE      // }
+#define SE_LBRC  LC(Z)      // {
+#define SE_RBRC  LC(X)      // }
 #define SE_PLUS  MINUS       // +
 #define SE_MINUS FSLH        // -
 #define SE_EQUAL LS(N0)      // =
@@ -78,8 +78,8 @@
 #define SE_SQT   BSLH        // '
 #define SE_GRAVE PLUS        // ´
 #define SE_TILDE RA(RBKT)    // ~
-#define SE_LT    LESS_THAN // <
-#define SE_GT    GREATER_THAN   // >
-#define SE_BSLH  BACKSLASH // (backslash)
-#define SE_PIPE  PIPE2   // |
+#define SE_LT    LS(COMMA) // <
+#define SE_GT    LS(DOT)   // >
+#define SE_BSLH  LC(MINUS) // (backslash)
+#define SE_PIPE  LS(LC(MINUS))   // |
 
