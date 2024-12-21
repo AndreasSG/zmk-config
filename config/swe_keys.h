@@ -67,8 +67,10 @@
 #define SE_RPAR  LS(N9)      // )
 #define SE_LBKT  RA(N8)      // [
 #define SE_RBKT  RA(N9)      // ]
-#define SE_LBRC  LS(LA(N8))   // for '{' (Option + 8)
-#define SE_RBRC  LS(LA(N9))   // for '}' (Option + 9)
+#define SE_LBRC  RA(N7)      // {
+#define SE_RBRC  RA(N0)      // }
+#define SE_LBRC_MAC  LS(LA(N8))   // for '{' (Option + 8)
+#define SE_RBRC_MAC  LS(LA(N9))   // for '}' (Option + 9)
 #define SE_PLUS  MINUS       // +
 #define SE_MINUS FSLH        // -
 #define SE_EQUAL LS(N0)      // =
@@ -78,8 +80,12 @@
 #define SE_SQT   BSLH        // '
 #define SE_GRAVE PLUS        // ´
 #define SE_TILDE RA(RBKT)    // ~
-#define SE_LT    GRAVE       // for '<'
-#define SE_GT    LS(GRAVE)   // for '>'
-#define SE_BSLH  LS(LA(N7))  // for '\' (Option + Shift + 7)
-#define SE_PIPE  LA(N7)  // for '|' (Option + 7)
+#define SE_LT    NON_US_BACKSLASH // <
+#define SE_GT    LS(SE_LT)   // >
+#define SE_BSLH  RA(SE_PLUS) // (backslash)
+#define SE_PIPE  RA(SE_LT)   // |
+#define SE_LT_MAC    GRAVE       // for '<'
+#define SE_GT_MAC    LS(GRAVE)   // for '>'
+#define SE_BSLH_MAC  LS(LA(N7))  // for '\' (Option + Shift + 7)
+#define SE_PIPE_MAC  LA(N7)  // for '|' (Option + 7)
 
