@@ -160,7 +160,7 @@
         settings_layer {
             bindings = <
                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4   &ext_power EP_ON  &ext_power EP_OFF    &none  &none       &none
-     &trans     &bt BT_CLR    &none         &none           &none         &none          &none             &to DEFAULT          &none  &to GAMING  &none    &none
+     &trans     &bt BT_CLR    &none         &none           &none         &none          &none             &to DEFAULT          &none  &none  &none    &none
      &trans     &out OUT_BLE  &out OUT_USB  &none           &none         &bootloader    &bootloader       &none                &none  &none       &trans   &none
                                             &none           &trans        &trans         &trans            &trans               &none
             >;
